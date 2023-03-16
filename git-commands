@@ -1,0 +1,32 @@
+root@ip-172-31-9-19:~/project1# history
+    1  cd project1/
+    2  ls -l
+    3  pwd
+    4  cd ..
+    5  ls -l
+    6  cd project1/
+    7  ls -la
+    8  clear
+    9  ls -la
+   10  touch file1.txt
+   11  vi file1.txt
+   12  cat file1.txt
+   13  ls -l
+   14  git status
+   15  git branch
+   16  git add file1.txt
+   17  ls -l
+   18  git status
+   19  git ls-files
+   20  git status
+   21  git commit -m "1st-commit"
+   22  ls -l
+   23  git ls-files
+   24  git status
+   25  git log
+   26  git branch
+   27  git remote -v
+   28  git remote add origin https://github.com/raushan8586/demo-repo.git
+   29  git remote -v
+   30  git push origin master
+   31  history
