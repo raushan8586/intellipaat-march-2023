@@ -1,0 +1,3 @@
+WD --> ls-l
+SA or LR --> git ls-files
+Conclude whethere SA or LR --> git status
