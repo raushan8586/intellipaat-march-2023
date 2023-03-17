@@ -163,3 +163,47 @@ root@ip-172-31-9-19:~/project1# history
   130  git log --oneline
   131  git status
   132  history
+git reset 2e61ed7
+  123  git log --oneline
+  124  git status
+  125  git restore file2.txt
+  126  git status
+  127  git log --oneline
+  128  git show 2e61ed7
+  129  git reset --hard 52421b4
+  130  git log --oneline
+  131  git status
+  132  history
+  133  clear
+  134  git branch
+  135  git branch b1 master
+  136  git branch
+  137  git log --oneline
+  138  git checkout b1
+  139  git branch
+  140  git log --oneline
+  141  ls -l
+  142  vi b1_file1.txt
+  143  git status
+  144  git add .
+  145  git commit -m "b1_1st-commit"
+  146  git log --oneline
+  147  git branch
+  148  git checkout master
+  149  git log --oneline
+  150  ls -l
+  151  git status
+  152  git checkout -b b2 master
+  153  git branch
+  154  git checkout master
+  155  git merge b1 master
+  156  git log --oneline
+  157  cd ..
+  158  ls -l
+  159  cd intellipaat-march-2023/
+  160  ls -l
+  161  git remote -v
+  162  git pull
+  163  ls -l
+  164  cd ../project1/
+  165  ls -l
