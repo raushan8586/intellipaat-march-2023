@@ -30,3 +30,136 @@ root@ip-172-31-9-19:~/project1# history
    29  git remote -v
    30  git push origin master
    31  history
+root@ip-172-31-9-19:~/project1# history
+    1  clear
+    2  apt update -y
+    3  clear
+    4  history
+    5  git version
+    6  git clone https://github.com/raushan8586/intellipaat-march-2023.git
+    7  ls -l
+    8  cd intellipaat-march-2023/
+    9  ls -l
+   10  cd ..
+   11  ls -l
+   12  cd intellipaat-march-2023/
+   13  ls -la
+   14  cd ..
+   15  pwd
+   16  ls -la
+   17  cd intellipaat-march-2023/
+   18  clear
+   19  pwd
+   20  ls -la
+   21  cd ..
+   22  pwd
+   23  mkdir project1
+   24  cd project1/
+   25  pwd
+   26  ls -la
+   27  git init
+   28  ls -la
+   29  cd project1/
+   30  ls -l
+   31  pwd
+   32  cd ..
+   33  ls -l
+   34  cd project1/
+   35  ls -la
+   36  clear
+   37  ls -la
+   38  touch file1.txt
+   39  vi file1.txt
+   40  cat file1.txt
+   41  ls -l
+   42  git status
+   43  git branch
+   44  git add file1.txt
+   45  ls -l
+   46  git status
+   47  git ls-files
+   48  git status
+   49  git commit -m "1st-commit"
+   50  ls -l
+   51  git ls-files
+   52  git status
+   53  git log
+   54  git branch
+   55  git remote -v
+   56  git remote add origin https://github.com/raushan8586/demo-repo.git
+   57  git remote -v
+   58  git push origin master
+   59  history
+   60  git log
+   61  ls -l
+   62  cd project1/
+   63  clear
+   64  pwd
+   65  ls -la
+   66  git status
+   67  vi file2.txt
+   68  ls -l
+   69  git ls-files
+   70  git status
+   71  git add file2.txt
+   72  git ls-files
+   73  git status
+   74  git commit -m "2nd commit"
+   75  git status
+   76  git ls-files
+   77  ls -l
+   78  vi file2.txt
+   79  git status
+   80  git diff file2.txt
+   81  git add file2.txt
+   82  git status
+   83  git diff --staged file2.txt
+   84  git commit -m "3rd commit"
+   85  git log
+   86  git config --list
+   87  git config --global user.name "raushan"
+   88  git config --global user.email "raushan8586.kumar@gmail.com"
+   89  git config --list
+   90  vi file2.txt
+   91  git add file2.txt
+   92  git commit -m "4th commit"
+   93  git log
+   94  git log --oneline
+   95  git show 52421b4
+   96  ls -l
+   97  rm file1.txt
+   98  ls -l
+   99  git status
+  100  git restore file1.txt
+  101  ls -l
+  102  git status
+  103  git rm file1.txt
+  104  ls -l
+  105  git ls-files
+  106  git status
+  107  git restore --staged file1.txt
+  108  git status
+  109  ls -l
+  110  git ls-files
+  111  git restore file1.txt
+  112  git status
+  113  ls -l
+  114  git ls-files
+  115  git log --oneline
+  116  git show 2e61ed7
+  117  git revert 2e61ed7
+  118  git log --oneline
+  119  git show 13a319e
+  120  git log --onelone
+  121  git log --oneline
+  122  git reset 2e61ed7
+  123  git log --oneline
+  124  git status
+  125  git restore file2.txt
+  126  git status
+  127  git log --oneline
+  128  git show 2e61ed7
+  129  git reset --hard 52421b4
+  130  git log --oneline
+  131  git status
+  132  history
