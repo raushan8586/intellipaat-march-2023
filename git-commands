@@ -207,3 +207,143 @@ git reset 2e61ed7
   163  ls -l
   164  cd ../project1/
   165  ls -l
+cd project1/
+  247  ls -l
+  248  git log --oneline
+  249  git status
+  250  git branch
+  251  git push origin b1
+  252  git remote -v
+  253  git log --oneline
+  254  git branch
+  255  git checkout b2
+  256  git log --oneline
+  257  git branch
+  258  git rebase master
+  259  git log --oneline
+  260  git remote -v
+  261  git push origin b2
+  262  git log --oneline
+  263  git checkout master
+  264  git log --oneline
+  265  git push origin master
+  266  git log --oneline
+  267  git checkout b2
+  268  git log --graph --pretty=oneline
+  269  git checkout master
+  270  ls -l
+  271  vi file3.txt
+  272  git add .
+  273  git commit -m "4th commit"
+  274  git log --oneline
+  275  git checkout b2
+  276  ls -l
+  277  vi b2_file1.txt
+  278  git add .
+  279  git commit -m "b2_1st-commit"
+  280  git log --oneline
+  281  git checkout master
+  282  git log --oneline
+  283  git merge b2 master
+  284  git log --oneline
+  285  git log --graph --pretty=oneline
+  286  git checkout b2
+  287  git log --graph --pretty=oneline
+  288  git rebase master
+  289  git log --graph --pretty=oneline
+  290  git branch
+  291  ls -l
+  292  git checkout b1
+  293  git rebase master
+  294  git log --graph --pretty=oneline
+  295  ls -l
+  296  vi file4.txt
+  297  git add .
+  298  git commit -m "b1_2nd-commit"
+  299  git checkout master
+  300  git merge b1 master
+  301  ls -l
+  302  cat file4.txt
+  303  git checkout b2
+  304  ls -l
+  305  vi file4.txt
+  306  git add .
+  307  git commit -m "b2_2nd-commit"
+  308  git checkout master
+  309  git merge b2 master
+  310  vi file4.txt
+  311  git status
+  312  git add file4.txt
+  313  git status
+  314  git commit -m "file4_conflict_resolved"
+  315  git stataus
+  316  git status
+  317  git log --oneline
+  318  git checkout b2
+  319  git log --oneline
+  320  git rebase master
+  321  git log --oneline
+  322  clear
+  323  git branch
+  324  git status
+  325  git checkout master
+  326  git status
+  327  ls -l
+  328  vi file5.txt
+  329  git add .
+  330  vi file6.txt
+  331  git add .
+  332  git stauts
+  333  git status
+  334  git log --oneline
+  335  git commit -m "5th commit"
+  336  git status
+  337  vi file5.txt
+  338  vi file6.txt
+  339  ls -l
+  340  git status
+  341  git stash list
+  342  git stash
+  343  git status
+  344  git stash list
+  345  git show stash@{0}
+  346  git stash pop stash@{0}
+  347  git status
+  348  git stash list
+  349  git stash -p
+  350  git status
+  351  git stash list
+  352  git show stash@{0}
+  353  git stash drop stash@{0}
+  354  git stash list
+  355  git status
+  356  git stash
+  357  git stash list
+  358  vi file4.txt
+  359  git status
+  360  git stash
+  361  git stash list
+  362  git stash clear
+  363  git stash list
+  364  git status
+  365  ls -l
+  366  vi app.log
+  367  vi readMe1st
+  368  git status
+  369  vi file7.txt
+  370  git status
+  371  git add file7.txt
+  372  git status
+  373  git commit -m "6th commit"
+  374  git status
+  375  touch .gitignore
+  376  vi .gitignore
+  377  git status
+  378  git add .
+  379  git commit -m "gitignore added"
+  380  git status
+  381  vi app.log
+  382  git status
+  383  ls -l
+  384  vi .gitignore
+  385  git status
