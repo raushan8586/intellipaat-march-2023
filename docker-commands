@@ -85,3 +85,35 @@ root@ip-172-31-5-43:~# history
    87  docker network ls
    88  docker inspect 817dfb984e96
    89  ls -l
+docker ps
+   93  docker rm -f b3a598f74a82
+   94  docker ps
+   95  docker volume ls
+   96  docker volume create intellipaat-vol
+   97  docker volume ls
+   98  docker run -itd --mount source=intellipaat-vol,target=/usr/local/apache2/htdocs -p 82:80 httpd1
+   99  docker ps
+  100  docker exec -it fe537ba075d6 /bin/bash
+  101  docker run -itd --mount source=intellipaat-vol,target=/usr/local/apache2/htdocs -p 83:80 httpd1
+  102  docker ps
+  103  docker exec -it ae6747d37ce7 /bin/bash
+  104  docker ps
+  105  docker rm -f fe537ba075d6
+  106  docker exec -it ae6747d37ce7 /bin/bash
+  107  find / -name intellipaat-vol
+  108  cd /var/lib/docker/volumes/intellipaat-vol
+  109  ls -l
+  110  cd _data
+  111  ls -l
+  112  touch dummy.txt
+  113  echo "this is a dummy file" > dummy.txt
+  114  cat dummy.txt
+  115  docker exec -it ae6747d37ce7 /bin/bash
+  116  cd ~
+  117  docker images
+  118  clear
+  119  docker images
+  120  docker image tag httpd1:latest raushan8586/intellipaat-march:latest
+  121  docker image push raushan8586/intellipaat-march:latest
+  122  docker login
+  123  docker image push raushan8586/intellipaat-march:latest
