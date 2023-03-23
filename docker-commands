@@ -33,3 +33,55 @@ root@ip-172-31-5-43:~# history
    32  docker exec -it 2f4727342081 /bin/bash
    33  docker stats
    34  history
+
+
+40  docker images
+   41  docker image ls
+   42  docker ps
+   43  docker container ls
+   44  docker inspect daab1fa13f86
+   45  docker images
+   46  docker inspect 51c25da77baf
+   47  docker images
+   48  docker run -itd -p 82:80
+   49  docker run -itd -p 82:80 httpd
+   50  clear
+   51  docker ps
+   52  docker images
+   53  docker exec -it 2a31a1df4ff3 /bin/bash
+   54  docker images
+   55  docker ps
+   56  docker commit 2a31a1df4ff3 -t httpd_new
+   57  docker commit 2a31a1df4ff3 httpd_new
+   58  docker images
+   59  docker exec -it 2a31a1df4ff3 /bin/bash
+   60  docker container ls
+   61  docker stop 2a31a1df4ff3
+   62  docker ps
+   63  docker ps -a
+   64  docker rm 2a31a1df4ff3 2f4727342081 c654fc827cda
+   65  docker ps -a
+   66  ls -l
+   67  mkdir project1
+   68  cd project1/
+   69  touch Dockerfile
+   70  vi Dockerfile
+   71  cat Dockerfile
+   72  vi index1.html
+   73  vi index2.html
+   74  ls -l
+   75  cat index1.html
+   76  cat index2.html
+   77  cat Dockerfile
+   78  clear
+   79  cat Dockerfile
+   80  docker build . -t httpd1
+   81  docker images
+   82  docker run -itd -p 82:80 httpd1
+   83  docker ps
+   84  clear
+   85  docker ps
+   86  docker inspect b3a598f74a82
+   87  docker network ls
+   88  docker inspect 817dfb984e96
+   89  ls -l
