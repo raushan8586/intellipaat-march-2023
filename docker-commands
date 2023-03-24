@@ -147,3 +147,4 @@ docker-compose version
   152  docker system prune -a
   153  docker system df
   154  docker ps
+docker-compose down
