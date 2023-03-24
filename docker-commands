@@ -117,3 +117,33 @@ docker ps
   121  docker image push raushan8586/intellipaat-march:latest
   122  docker login
   123  docker image push raushan8586/intellipaat-march:latest
+
+
+docker-compose version
+  128  apt install docker-compose -y
+  129  clear
+  130  docker-compose version
+  131  ls -l
+  132  mkdir app1
+  133  cd app1
+  134  ls -l
+  135  vi docker-compose.yaml
+  136  docker ps
+  137  ls -l
+  138  docker-compose up -d
+  139  docker ps
+  140  docker exec -it 2991cef05fc8 /bin/bash
+  141  docker os
+  142  clear
+  143  docker ps
+  144  docker exec -it 2991cef05fc8 /bin/bash
+  145  docker ps
+  146  docker logs 2991cef05fc8
+  147  ls -l
+  148  docker ps
+  149  docker logs d5d6ca2e8c61
+  150  clear
+  151  docker system df
+  152  docker system prune -a
+  153  docker system df
+  154  docker ps
