@@ -26,6 +26,9 @@ https://github.com/raushan8586/DevOps_ClassNotes/blob/master/Kubernetese/Kuberne
 2. Cloud Managed Services --> EKS (ELastic Kubernetes Service), AKS, GKE (Google Kubernetes Engine)
 https://console.cloud.google.com/
 
+Create Kubernetes Cluster in GKE
+gcloud container clusters create intellipaat-cluster --num-nodes=2 --zone=us-central1-a
+
 Kubernetes Objects/Resources
 Pods --> has the container, 1-1 mapping (1 pod:1 container)
 Replica Set --> maintain a stable number of replica pods
