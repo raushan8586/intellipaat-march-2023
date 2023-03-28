@@ -28,6 +28,7 @@ https://console.cloud.google.com/
 
 Create Kubernetes Cluster in GKE
 gcloud container clusters create intellipaat-cluster --num-nodes=2 --zone=us-central1-a
+gcloud container clusters delete intellipaat-cluster --zone=us-central1-a
 
 Kubernetes Objects/Resources
 Pods --> has the container, 1-1 mapping (1 pod:1 container)
@@ -37,4 +38,11 @@ Services --> NodePort, LoadBalancer, ClusterIP
 Volumes
 ConfigMap
 Secrets
+
+
+Kind - apiVersion
+Pod - v1
+Service - v1
+ReplicaSet - apps/v1
+Deployment - apps/v1
 
