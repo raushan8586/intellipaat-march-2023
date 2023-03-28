@@ -21,6 +21,8 @@ Google has donated K8s to CNCF
 
 Kubernetes Setup
 1. Manual installation - KUBEADM
+https://github.com/raushan8586/DevOps_ClassNotes/blob/master/Kubernetese/Kubernetes_setup.txt
+
 2. Cloud Managed Services --> EKS (ELastic Kubernetes Service), AKS, GKE (Google Kubernetes Engine)
 
 Kubernetes Objects/Resources
