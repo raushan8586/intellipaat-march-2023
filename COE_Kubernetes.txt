@@ -1,0 +1,34 @@
+COE Features: --> Kubernetes (K8s)
+1. Auto Self-Healing
+2. Automated Deployment
+3. Auto-Scaling of containers
+4. Auto-Load Balancing
+5. Auto-Scheduling of containers of nodes
+
+No Downtime
+Performance
+Reliability
+Cost-Optimized
+Security
+
+
+Kubernetes --> 2015
+Google
+Borg
+Open-Source
+Google has donated K8s to CNCF
+
+
+Kubernetes Setup
+1. Manual installation - KUBEADM
+2. Cloud Managed Services --> EKS (ELastic Kubernetes Service), AKS, GKE (Google Kubernetes Engine)
+
+Kubernetes Objects/Resources
+Pods --> has the container, 1-1 mapping (1 pod:1 container)
+Replica Set --> maintain a stable number of replica pods
+Deployment 
+Services --> NodePort, LoadBalancer, ClusterIP
+Volumes
+ConfigMap
+Secrets
+
