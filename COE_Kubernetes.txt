@@ -24,6 +24,7 @@ Kubernetes Setup
 https://github.com/raushan8586/DevOps_ClassNotes/blob/master/Kubernetese/Kubernetes_setup.txt
 
 2. Cloud Managed Services --> EKS (ELastic Kubernetes Service), AKS, GKE (Google Kubernetes Engine)
+https://console.cloud.google.com/
 
 Kubernetes Objects/Resources
 Pods --> has the container, 1-1 mapping (1 pod:1 container)
