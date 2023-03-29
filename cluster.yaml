@@ -1,0 +1,35 @@
+# cluster.yaml
+# A cluster with two managed nodegroups
+---
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: managed-cluster
+  region: eu-central-1
+
+managedNodeGroups:
+  - name: managed-ng-1
+    instanceType: t2.micro
+    minSize: 2
+    maxSize: 4
+    desiredCapacity: 3
+    volumeSize: 10
+    ssh:
+      allow: true
+      publicKeyName: eks-demo
+      #publicKeyPath: /home/ec2-user/eks-demo.pub
+      # new feature for restricting SSH access to certain AWS security group IDs
+      sourceSecurityGroupIds: ["sg-058e0268c19451f19"]
+    labels: {role: worker}
+    tags:
+      nodegroup-role: worker
+    iam:
+      withAddonPolicies:
+        externalDNS: true
+        certManager: true
+
+  - name: managed-ng-2
+    instanceType: t2.micro
+    minSize: 2
+    maxSize: 3
