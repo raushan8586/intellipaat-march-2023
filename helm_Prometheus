@@ -6,3 +6,26 @@ https://prometheus.io/download/
 
 Helm Charts for Prometheus
 https://artifacthub.io/packages/helm/prometheus-community/prometheus
+
+Port-Fordwarding OR ClusterIP --> LoadBalancer
+
+Helm Charts for Grafana
+https://artifacthub.io/packages/helm/grafana/grafana
+
+Get Crentials
+kubectl get secret --namespace default my-grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo
+
+Port-Forwarding OR ClusterIP --> LoadBalancer
+
+
+Add the Prometheus Data-Source
+
+
+Grafana Dashboard
+https://grafana.com/grafana/dashboards/315-kubernetes-cluster-monitoring-via-prometheus/
+315
+
+6417
+
+
+
