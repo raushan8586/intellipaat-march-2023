@@ -13,4 +13,10 @@
   514  kubectl apply -f my-ingress.yml
   515  kubectl get ingress
   516  kubectl get svc
-  517  history
+
+Delete
+--------------
+kubectl delete -f my-ingress.yml
+  519  kubectl delete -f deployment-service-2.yaml
+  520  kubectl delete -f deployment-service-1.yaml
+  521  helm delete nginx-ingress
