@@ -1,0 +1,16 @@
+502  helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
+  503  helm repo update
+  504  helm install nginx-ingress ingress-nginx/ingress-nginx
+  505  kubectl get all
+  506  ls -l
+  507  cat deployment-service-1.yaml
+  508  cat deployment-service-2.yaml
+  509  kubectl apply -f deployment-service-1.yaml
+  510  kubectl apply -f deployment-service-2.yaml
+  511  kubectl get all
+  512  ls -l
+  513  cat my-ingress.yml
+  514  kubectl apply -f my-ingress.yml
+  515  kubectl get ingress
+  516  kubectl get svc
+  517  history
