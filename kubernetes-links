@@ -5,3 +5,19 @@ https://kubernetes.io/docs/reference/kubectl/cheatsheet/
 https://www.yamllint.com/
 
 https://kubernetes.io/docs/tasks/access-application-cluster/connecting-frontend-backend/
+
+Ingress
+https://kubernetes.io/docs/concepts/services-networking/ingress/
+
+Ingress Demo
+Demo1:
+https://cloud.google.com/community/tutorials/nginx-ingress-gke
+
+Demo2:
+https://cloud.google.com/kubernetes-engine/docs/how-to/load-balance-ingress
+
+Kubernetes Dashboard
+https://raw.githubusercontent.com/raushan8586/DevOps_ClassNotes/master/Kubernetese/dashboard-insecure.yml
+
+Run:
+kubectl apply -f https://raw.githubusercontent.com/raushan8586/DevOps_ClassNotes/master/Kubernetese/dashboard-insecure.yml
