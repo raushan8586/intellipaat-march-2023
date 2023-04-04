@@ -7,3 +7,5 @@ https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html
 
 https://eksctl.io/
 eksctl create cluster
+eksctl get cluster
+ekcctl delete cluster <cluster_name>
