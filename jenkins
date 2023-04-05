@@ -1,0 +1,12 @@
+apt update -y
+    2  clear
+    3  sudo apt install openjdk-11-jre -y
+    4  java -version
+    
+    23  curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+   24  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]   https://pkg.jenkins.io/debian binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+   25  sudo apt-get update
+   26  sudo apt-get install jenkins
+   27  systemctl status jenkins
+   28  lsof -i -P -n | grep LISTEN
+   29  cat /var/lib/jenkins/secrets/initialAdminPassword
