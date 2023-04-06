@@ -11,7 +11,11 @@ apt update -y
    28  lsof -i -P -n | grep LISTEN
    29  cat /var/lib/jenkins/secrets/initialAdminPassword
    
-   
+
+
+Dockerfile
+https://github.com/raushan8586/pipeline1.git
+
 Docker-Job
 sudo docker rm -f $(sudo docker ps -a -q)
 sudo docker build /var/lib/jenkins/workspace/Build-Website-Job/ -t httpd1
