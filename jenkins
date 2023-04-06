@@ -37,3 +37,12 @@ https://mvnrepository.com/artifact/org.testng/testng/7.7.1
 Build Lifecycle
 https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
 
+
+Tomcat
+VM --> https://www.baeldung.com/tomcat-deploy-war
+Container --> https://www.baeldung.com/docker-deploy-java-war
+
+
+
+
+
