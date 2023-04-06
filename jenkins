@@ -27,3 +27,13 @@ sudo: a password is required
 
 visudo
 Add this line --> jenkins ALL=(ALL) NOPASSWD: ALL
+
+
+Maven Build Lifecycle
+----------------------
+https://maven.apache.org/index.html
+https://mvnrepository.com/artifact/org.testng/testng/7.7.1
+
+Build Lifecycle
+https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
+
