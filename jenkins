@@ -10,3 +10,16 @@ apt update -y
    27  systemctl status jenkins
    28  lsof -i -P -n | grep LISTEN
    29  cat /var/lib/jenkins/secrets/initialAdminPassword
+   
+   
+Docker-Job
+sudo docker rm -f $(sudo docker ps -a -q)
+sudo docker build /var/lib/jenkins/workspace/Build-Website-Job/ -t httpd1
+sudo docker run -itd -p 82:80 httpd1
+
+
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+
+visudo
+Add this line --> jenkins ALL=(ALL) NOPASSWD: ALL
