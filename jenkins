@@ -37,12 +37,19 @@ https://mvnrepository.com/artifact/org.testng/testng/7.7.1
 Build Lifecycle
 https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
 
+Repo  --> https://github.com/raushan8586/MyLab
+
 
 Tomcat
 VM --> https://www.baeldung.com/tomcat-deploy-war
 Container --> https://www.baeldung.com/docker-deploy-java-war
 
+Jenkinsfile --> Pipeline as Code
+------------
+https://www.jenkins.io/doc/book/pipeline/
+https://www.jenkins.io/doc/book/pipeline/syntax/
 
+https://github.com/raushan8586/MyLab
 
 
 
