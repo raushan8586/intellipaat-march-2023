@@ -45,7 +45,11 @@ Commands:
    25  ansible -m ping host1
    26  ansible -m ping host2
    27  ansible -m ping DEV
-   28  history
+   vi first-playbook.yaml
+   33  ansible-playbook first-playbook.yaml --syntax-check
+   34  cat first-playbook.yaml
+   35  clear
+   36  ansible-playbook first-playbook.yaml
    
    
    Ansible Links:
