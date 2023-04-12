@@ -46,3 +46,8 @@ Commands:
    26  ansible -m ping host2
    27  ansible -m ping DEV
    28  history
+   
+   
+   Ansible Links:
+   https://www.middlewareinventory.com/blog/ansible-playbook-example/
+   
