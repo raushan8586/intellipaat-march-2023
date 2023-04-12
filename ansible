@@ -1,0 +1,14 @@
+Installation:
+
+sudo apt update
+python3 --version
+sudo apt install software-properties-common
+sudo apt-add-repository --yes --update ppa:ansible/ansible
+sudo apt update
+sudo apt install ansible
+
+hosts:
+
+[DEV]
+host1 ansible_ssh_host=13.233.128.40
+host2 ansible_ssh_host=3.111.170.170
