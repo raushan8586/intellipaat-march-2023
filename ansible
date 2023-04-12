@@ -12,3 +12,37 @@ hosts:
 [DEV]
 host1 ansible_ssh_host=13.233.128.40
 host2 ansible_ssh_host=3.111.170.170
+
+Adhoc Commands:
+ansible -m ping host1
+
+
+Commands:
+    1  apt update -y
+    2  sudo apt install software-properties-common
+    3  sudo apt-add-repository --yes --update ppa:ansible/ansible
+    4  apt update -y
+    5  apt install ansible -y
+    6  ansible version
+    7  ansible --version
+    8  cd /etc/ansible/
+    9  ls -l
+   10  vi hosts
+   11  cat hosts
+   12  clear
+   13  ansible -m ping host1
+   14  ansible -m ping host2
+   15  ansible -m ping DEV
+   16  cd ~
+   17  pwd
+   18  ls -la
+   19  cd .ssh
+   20  ls -l
+   21  cat authorized_keys
+   22  ssh-keygen
+   23  ls -l
+   24  cat id_rsa.pub
+   25  ansible -m ping host1
+   26  ansible -m ping host2
+   27  ansible -m ping DEV
+   28  history
