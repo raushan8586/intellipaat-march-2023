@@ -47,6 +47,15 @@ Commands:
    27  ansible -m ping DEV
    vi first-playbook.yaml
    33  ansible-playbook first-playbook.yaml --syntax-check
+   
+   ansible-galaxy init intellipaat
+   26  ls -l
+   27  cd intellipaat/
+   28  ls -l
+   29  tree
+   30  apt install tree -y
+   31  clear
+   32  tree
    34  cat first-playbook.yaml
    35  clear
    36  ansible-playbook first-playbook.yaml
