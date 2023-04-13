@@ -60,6 +60,31 @@ Commands:
    35  clear
    36  ansible-playbook first-playbook.yaml
    
+   tree
+   35  cd tasks
+   36  ls -l
+   37  vi install.yaml
+   38  ls -l
+   39  vi configure.yaml
+   40  cd ../files/
+   41  vi index1.html
+   42  cd ../tasks/
+   43  ls -l
+   44  vi service.yaml
+   45  ls -l
+   46  vi main.yml
+   47  cd ..
+   48  ls -l
+   49  cd ..
+   50  ls -l
+   51  cd ..
+   52  ls -l
+   53  vi project1.yaml
+   54  ls -l
+   55  ansible-playbook project1.yaml --syntax-check
+   56  ansible-playbook project1.yaml
+   57  history
+   
    
    Ansible Links:
    https://www.middlewareinventory.com/blog/ansible-playbook-example/
