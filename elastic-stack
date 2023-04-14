@@ -4,3 +4,23 @@ https://www.elastic.co/downloads/
 
 Git-Repo: https://github.com/raushan8586/ELKExample.git
 https://github.com/raushan8586/ELKExample/blob/master/docker-compose.yml
+
+
+Commands
+apt update -y
+    2  clear
+    3  apt install docker.io -y
+    4  docker version
+    5  apt install docker-compose -y
+    6  docker-compose version
+    7  git version
+    8  clear
+    9  ls -l
+   10  pwd
+   11  git clone https://github.com/raushan8586/ELKExample.git
+   12  ls -l
+   13  cd ELKExample/
+   14  ls -l
+   15  sysctl -w vm.max_map_count=262144
+   16  docker-compose up -d
+   17  docker ps
