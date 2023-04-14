@@ -33,3 +33,9 @@ https://artifacthub.io/packages/helm/elastic/logstash
 
 https://artifacthub.io/packages/helm/elastic/filebeat
 https://artifacthub.io/packages/helm/elastic/metricbeat
+
+
+
+Try these docker-compose yamls:
+https://www.bogotobogo.com/DevOps/Docker/Docker_ELK_7_6_Elastic_Stack_Docker_Compose.php
+https://github.com/deviantony/docker-elk
